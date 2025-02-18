@@ -22,3 +22,21 @@
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+
+/*MEDIA QUERIES*/
+@media(max-width: 670px) {
+    .width {
+        width: 90%
+    }
+
+    .about-main .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-main .heading {
+        text-align: center;
+    }
+}
