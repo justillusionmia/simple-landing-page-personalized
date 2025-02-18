@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="images/logo2.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo2.jpg" alt="logo">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a class="btn btn-secondary" href="#">
+                        <i class="fas fa-user"></i>Log in
+                    </a></li>
+                    <a title="Help">
+                    <li><i class="fa-regular fa-circle-question menu-help-i"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <button class="hamburger-button">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </button>
+            <div class="mobile-menu">
+                <hr id="line">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a class="btn" href="#">
+                        <i class="fas fa-user"></i>Log in
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-heading text-xxl">Welcome to TimmyTutorials: Your Ultimate Coding Resource!</h1>
+                <p class="hero-text">
+                    At TimmyTutorials we believe that anyone can learn to code regardless of their background
+                    or experience level. Our online platform offers step-by-step tutorials, 
+                    interactive exercises, and real-world projects designed to help you master the essential 
+                    programming languages.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cour bg-grey">
+        <div class="container">
+            <h3 class="cour-heading text-xl text-center">Courses</h3>
+            <div class="cour-container">
+                <!--CARD ONE-->
+                <div class="cour-info card bg-dark">
+                    <h4 class="cour-info-heading text-xl"><i class="fa-brands fa-html5"></i>HTML</h4>
+                    <div class="cour-info-drop">
+                        <p class="cour-info-overview">Overview: Learn how to create the structure of web pages using HTML.</p>
+                        <p>Topics covered:</p>
+                            <ul>
+                                <li>HTML tags and elements</li>
+                                <li>Creating forms and tables</li>
+                                <li>Headers and Footers</li>
+                                <li>Best practices</li>
+                            </ul>
+                        <p>Project: Build your own personal website or portfolio page.</p>
+                        <div class="btn-view-container">
+                            <button class="view-full-btn btn btn-secondary">VIEW FULL COURSE</button>
+                        </div>
+                    </div>
+                </div>
+                <!--CARD TWO-->
+                <div class="cour-info card">
+                    <h4 class="cour-info-heading text-xl"><i class="fa-brands fa-css3-alt"></i>CSS</h4>
+                    <div class="cour-info-drop">
+                        <p class="cour-info-overview">Overview: Discover how to style your web pages and make them visually appealing with CSS.</p>
+                        <p>Topics covered:</p>
+                            <ul>
+                                <li>Selectors, properties, and values</li>
+                                <li>Box model and layout techniques</li>
+                                <li>CSS animations and transitions</li>
+                                <li>Responsive design with media queries</li>
+                            </ul>
+                        <p>Project: Style given HTML project to enhance user experience.</p>
+                        <div class="btn-view-container">
+                            <button class="view-full-btn btn btn-secondary">VIEW FULL COURSE</button>
+                        </div>
+                    </div>
+                </div>
+                <!--CARD THREE-->
+                <div class="cour-info card bg-dark">
+                    <h4 class="cour-info-heading text-xl"><i class="fa-solid fa-database"></i>JavaScript</h4>
+                    <div class="cour-info-drop">
+                        <p class="cour-info-overview">Overview: Learn how to add interactivity and dynamic behavior to your web pages using JavaScript.</p>
+                        <p>Topics covered:</p>
+                            <ul>
+                                <li>Variables and data types</li>
+                                <li>Control flow (if statements, loops)</li>
+                                <li>Functions</li>
+                                <li>DOM manipulation</li>
+                            </ul>
+                        <p>Project:  Build a dynamic web application, such as a to-do list or a simple game.</p>
+                        <div class="btn-view-container">
+                            <button class="view-full-btn btn btn-secondary">VIEW FULL COURSE</button>
+                        </div>
+                    </div>
+                </div>    
+                <!--CARD FOUR-->
+                <div class="cour-info card">
+                    <h4 class="cour-info-heading text-xl"><i class="fa-solid fa-database"></i>SQL</h4>
+                    <div class="cour-info-drop">
+                        <p class="cour-info-overview">Overview: Master the art of database management with SQL.</p>
+                        <p>Topics covered:</p>
+                            <ul>
+                                <li>Database design principles</li>
+                                <li>Writing queries to retrieve data</li>
+                                <li>Data manipulation (INSERT, UPDATE, DELETE)</li>
+                                <li>Joins and subqueries</li>
+                            </ul>
+                        <p>Project: Work with sample databases to practice your SQL skills.</p>
+                        <div class="btn-view-container">
+                            <button class="view-full-btn btn btn-secondary">VIEW FULL COURSE</button>
+                        </div>
+                    </div>
+                </div>
+                <!--CARD FIVE-->
+                <div class="cour-info card bg-dark">
+                    <h4 class="cour-info-heading text-xl"><i class="fa-brands fa-php"></i>PHP</h4>
+                    <div class="cour-info-drop">
+                        <p class="cour-info-overview">Overview: Learn server-side programming with PHP</p>
+                        <p>Topics covered:</p>
+                            <ul>
+                                <li>Syntax and basic programming concepts</li>
+                                <li>Working with forms and user input</li>
+                                <li>Sessions and cookies for user management</li>
+                                <li>Connecting to databases using MySQL</li>
+                            </ul>
+                        <p>Project: Create dynamic web applications that interact with users.</p>
+                        <div class="btn-view-container">
+                            <button class="view-full-btn btn btn-secondary">VIEW FULL COURSE</button>
+                        </div>
+                    </div>
+                </div>
+                <!--CARD SIX-->
+                <div class="cour-info card">
+                    <h4 class="cour-info-heading text-xl"><i class="fa-solid fa-file-code"></i>C</h4>
+                    <div class="cour-info-drop">
+                        <p class="cour-info-overview">Overview: Dive into the fundamentals of programming with C.</p>
+                        <p>Topics covered:</p>
+                            <ul>
+                                <li>Basic syntax and structure</li>
+                                <li>Data types and variables</li>
+                                <li>Control structures (if statements, loops)</li>
+                                <li>Functions and pointers</li>
+                                <li>Structs</li>
+                            </ul>
+                        <p>Project: Test your knowledge with coding challenges and quizzes.</p>
+                        <div class="btn-view-container">
+                            <button class="view-full-btn btn btn-secondary">VIEW FULL COURSE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials bg-dark">
+        <div class="container">
+            <h3 class="testimonials-heading text-xl text-center">See success stories from people like you.</h3>
+                <div class="testimonials-grid">
+                    <div class="card">
+                        <p>
+                            "TimmyTutorials has transformed my understanding of web development. 
+                            The courses are well-structured and easy to follow!"
+                        </p>
+                        <p>Sarah Johnson</p>
+                        <p>Freelace Web Developer</p>
+                    </div>
+                    <div class="card">
+                        <p>
+                            "I never thought I could learn to code, but the interactive tutorials made it 
+                            enjoyable. Highly recommend!"
+                        </p>
+                        <p>Micheal Smith</p>
+                        <p>Software Engineer</p>
+                    </div>
+                    <div class="card">
+                        <p>
+                            "I loved the hands-on projects! They helped me apply what 
+                            I learned in real-world scenarios."
+                          </p>
+                          <p>Emily Davis</p>
+                          <p>Data Analyst, DataWise</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="pricing">
+        <div class="container-sm">
+            <h3 class="pricing-heading text-xl text-center">Pricing</h3>
+            <p class="pricing-subheading text-md text-center">
+                Start free and scale while you grow. No hidden fees.
+            </p>
+            <div class="pricing-grid">
+            <!-- Card One -->
+                <div class="card bg-light">
+                    <div class="pricing-card-header">
+                        <h4 class="pricing-heading text-xl">
+                            Basic
+                        </h4>
+                        <p class="pricing-card-subheading">
+                            Perfect for beginners who want to dip their toes into the world of coding. 
+                            You gain access to all foundational courses, allowing you to build essential skills at your own pace.
+                        </p>
+                        <p class="pricing-card-price">
+                            <span class="xl">Free</span>
+                            *No credit card needed.
+                        </p>
+                    </div>
+                    <div class="pricing-card-body">
+                        <ul>
+                            <li>
+                                <i class="fas fa-check"></i>Access to all basic courses
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Community support
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Interactive quizzes
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Certificate of completion
+                            </li>
+                        </ul>
+                        <a href="" class="btn btn-secondary btn-block">Get Started</a>
+                    </div>
+                </div>
+                <!-- Card Two -->
+                <div class="card bg-dark">
+                    <div class="pricing-card-header">
+                      <h4 class="pricing-card-heading text-xl">Premium</h4>
+                      <p class="pricing-card-subheading">
+                        Unlock a more comprehensive learning experience. Includes 
+                        everything in the Basic Plan, along with access to advanced courses designed to deepen your knowledge and skills.
+                      </p>
+                      <p class="pricing-card-price">
+                        <span class="text-xl">$14.99</span> /month
+                      </p>
+                    </div>
+                    <div class="pricing-card-body">
+                      <p>Everything from the basic plan plus:</p>
+                      <ul>
+                        <li>
+                            <i class="fas fa-check"></i>Personalized learning path
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>Email support from instructors
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i>Exclusive webinars and workshops
+                        </li>
+                      </ul>
+                      <a href="#" class="btn btn-secondary btn-block">Get Started</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq bg-light">
+        <div class="container-sm">
+            <h3 class="text-xl text-center">Frequently Asked Questions</h3>
+            <ul class="faq-menu">
+                <li class="active">All</li>
+                <li>Getting Started</li>
+            </ul>
+              <div class="faq-content">
+                <!--Group One-->
+                <div class="faq-group">
+                    <div class="faq-group-header">
+                        <h4 class="text-md">
+                            Do I need to create an account to access the content?
+                        </h4>
+                        <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="faq-group-body">
+                        <p>
+                            While many resources are available for free without an account, 
+                            creating an account allows you to track your progress, save your 
+                            favorite tutorials, and participate in community discussions.
+                        </p>
+                    </div>
+                </div>
+                <!--Group Two-->
+                <div class="faq-group">
+                    <div class="faq-group-header">
+                        <h4 class="text-md">
+                            What programming languages do you cover?
+                        </h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-group-body">
+                        <p>
+                            We offer tutorials and resources for a variety of programming 
+                            languages, including HTML, CSS, SQL, C, and more. You can find 
+                            specific sections dedicated to each language.
+                        </p>
+                    </div>
+                    </div>
+                <!--Group Three-->
+                  <div class="faq-group">
+                    <div class="faq-group-header">
+                        <h4 class="text-md">
+                            Are the tutorials suitable for beginners?
+                        </h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-group-body">
+                        <p>
+                            Yes! Our tutorials are designed to cater to all skill levels. 
+                            We have beginner-friendly guides that introduce fundamental concepts 
+                            as well as advanced topics for seasoned programmers.
+                        </p>
+                    </div>
+                    </div>
+                <!--Group Four-->
+                <div class="faq-group">
+                    <div class="faq-group-header">
+                        <h4 class="text-md">
+                            What should I do if I encounter a bug on the website?
+                        </h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-group-body">
+                      <p>
+                        We appreciate your feedback! Please report any bugs by using the "Report a Bug" 
+                        feature found in the footer of our website. Include details about the issue 
+                        so we can address it promptly.
+                      </p>
+                    </div>
+                </div>
+                <!--Group Five--> 
+                <div class="faq-group">
+                    <div class="faq-group-header">
+                        <h4 class="text-md">
+                            I'm having trouble accessing a tutorial. What should I do?
+                        </h4>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-group-body">
+                    <p>
+                        If you're experiencing issues accessing content, please try 
+                        refreshing the page or clearing your browser cache. If the problem persists, 
+                        contact our support team through the "Help" section.
+                    </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="footer bg-grey">
+        <div class="container">
+            <div class="footer-grid">
+                <!--Column One-->
+                <div>
+                    <a href="index.html">
+                        <img src="images/logo2.jpg" class="logo" alt="logo">
+                    </a>
+                    <div class="card">
+                        <h4>Subscribe to Our Coding Newsletter</h4>
+                        <p class="text-sm"> 
+                            Stay updated with the latest coding tutorials, 
+                            tips, and resources directly in your inbox!
+                        </p>
+                        <form>
+                            <input type="email" id="email" placeholder="Enter your email">
+                            <button type="submit" class="btn btn-secondary btn-block">Subscribe</button>
+                        </form>
+                    </div>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-github"></i>
+                </div>
+                <!--Column Two-->
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Meet the Team</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+                <!--Column Three-->
+                <div>
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Beginner Tutorials</a></li>
+                        <li><a href="#">Advanced Techniques</a></li>
+                        <li><a href="#">Coding Challenges</a></li>
+                    </ul>
+                </div>
+                <!--Column Four-->
+                <div>
+                    <h4>Community & Support</h4>
+                    <ul>
+                        <li><a href="#">Join Our Forum</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

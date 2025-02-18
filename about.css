@@ -1,0 +1,24 @@
+.about-main {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about-main .about-text {
+    margin-bottom: 20px;
+}
+
+.heading {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: underline;
+}
+
+
+/*UTILITY CLASSES*/
+.width {
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
